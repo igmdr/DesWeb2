@@ -1,0 +1,33 @@
+.Header {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+.Header ul{
+    list-style: nome;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.Header li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.Header a{
+    text-decoration: nome;
+    color: white;
+}
+
+.Header a:hover,
+.Header a:active,
+.Header a.active{
+    color: orange;
+}
